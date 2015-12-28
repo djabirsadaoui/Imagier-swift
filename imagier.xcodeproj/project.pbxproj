@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D655B71419F7DA0200BFCEA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D655B71319F7DA0200BFCEA9 /* AppDelegate.swift */; };
+		D655B71619F7DA0200BFCEA9 /* viewControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D655B71519F7DA0200BFCEA9 /* viewControler.swift */; };
+		D655B71919F7DA0200BFCEA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D655B71719F7DA0200BFCEA9 /* Main.storyboard */; };
+		D655B71B19F7DA0200BFCEA9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D655B71A19F7DA0200BFCEA9 /* Images.xcassets */; };
+		D655B71E19F7DA0200BFCEA9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D655B71C19F7DA0200BFCEA9 /* LaunchScreen.xib */; };
+		D655B72A19F7DA0200BFCEA9 /* imagierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D655B72919F7DA0200BFCEA9 /* imagierTests.swift */; };
+		D655B73419F7E96C00BFCEA9 /* Mavue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D655B73319F7E96C00BFCEA9 /* Mavue.swift */; };
+		D655B73619F7FCBE00BFCEA9 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = D655B73519F7FCBE00BFCEA9 /* Image.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D655B72419F7DA0200BFCEA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D655B70619F7DA0200BFCEA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D655B70D19F7DA0200BFCEA9;
+			remoteInfo = imagier;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D655B70E19F7DA0200BFCEA9 /* imagier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = imagier.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D655B71219F7DA0200BFCEA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D655B71319F7DA0200BFCEA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D655B71519F7DA0200BFCEA9 /* viewControler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewControler.swift; sourceTree = "<group>"; };
+		D655B71819F7DA0200BFCEA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D655B71A19F7DA0200BFCEA9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D655B71D19F7DA0200BFCEA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D655B72319F7DA0200BFCEA9 /* imagierTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = imagierTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D655B72819F7DA0200BFCEA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D655B72919F7DA0200BFCEA9 /* imagierTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imagierTests.swift; sourceTree = "<group>"; };
+		D655B73319F7E96C00BFCEA9 /* Mavue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mavue.swift; sourceTree = "<group>"; };
+		D655B73519F7FCBE00BFCEA9 /* Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D655B70B19F7DA0200BFCEA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D655B72019F7DA0200BFCEA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3550B6861C314F05009FF85B /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				D655B71519F7DA0200BFCEA9 /* viewControler.swift */,
+				D655B71319F7DA0200BFCEA9 /* AppDelegate.swift */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		3550B6871C314F0E009FF85B /* view */ = {
+			isa = PBXGroup;
+			children = (
+				D655B73519F7FCBE00BFCEA9 /* Image.swift */,
+				D655B73319F7E96C00BFCEA9 /* Mavue.swift */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		D655B70519F7DA0200BFCEA9 = {
+			isa = PBXGroup;
+			children = (
+				D655B71019F7DA0200BFCEA9 /* imagier */,
+				D655B72619F7DA0200BFCEA9 /* imagierTests */,
+				D655B70F19F7DA0200BFCEA9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D655B70F19F7DA0200BFCEA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D655B70E19F7DA0200BFCEA9 /* imagier.app */,
+				D655B72319F7DA0200BFCEA9 /* imagierTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D655B71019F7DA0200BFCEA9 /* imagier */ = {
+			isa = PBXGroup;
+			children = (
+				3550B6871C314F0E009FF85B /* view */,
+				3550B6861C314F05009FF85B /* controller */,
+				D655B71719F7DA0200BFCEA9 /* Main.storyboard */,
+				D655B71A19F7DA0200BFCEA9 /* Images.xcassets */,
+				D655B71C19F7DA0200BFCEA9 /* LaunchScreen.xib */,
+				D655B71119F7DA0200BFCEA9 /* Supporting Files */,
+			);
+			path = imagier;
+			sourceTree = "<group>";
+		};
+		D655B71119F7DA0200BFCEA9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D655B71219F7DA0200BFCEA9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D655B72619F7DA0200BFCEA9 /* imagierTests */ = {
+			isa = PBXGroup;
+			children = (
+				D655B72919F7DA0200BFCEA9 /* imagierTests.swift */,
+				D655B72719F7DA0200BFCEA9 /* Supporting Files */,
+			);
+			path = imagierTests;
+			sourceTree = "<group>";
+		};
+		D655B72719F7DA0200BFCEA9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D655B72819F7DA0200BFCEA9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D655B70D19F7DA0200BFCEA9 /* imagier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D655B72D19F7DA0200BFCEA9 /* Build configuration list for PBXNativeTarget "imagier" */;
+			buildPhases = (
+				D655B70A19F7DA0200BFCEA9 /* Sources */,
+				D655B70B19F7DA0200BFCEA9 /* Frameworks */,
+				D655B70C19F7DA0200BFCEA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = imagier;
+			productName = imagier;
+			productReference = D655B70E19F7DA0200BFCEA9 /* imagier.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D655B72219F7DA0200BFCEA9 /* imagierTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D655B73019F7DA0200BFCEA9 /* Build configuration list for PBXNativeTarget "imagierTests" */;
+			buildPhases = (
+				D655B71F19F7DA0200BFCEA9 /* Sources */,
+				D655B72019F7DA0200BFCEA9 /* Frameworks */,
+				D655B72119F7DA0200BFCEA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D655B72519F7DA0200BFCEA9 /* PBXTargetDependency */,
+			);
+			name = imagierTests;
+			productName = imagierTests;
+			productReference = D655B72319F7DA0200BFCEA9 /* imagierTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D655B70619F7DA0200BFCEA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = m2sar;
+				TargetAttributes = {
+					D655B70D19F7DA0200BFCEA9 = {
+						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = MRV7A6DFL3;
+					};
+					D655B72219F7DA0200BFCEA9 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = D655B70D19F7DA0200BFCEA9;
+					};
+				};
+			};
+			buildConfigurationList = D655B70919F7DA0200BFCEA9 /* Build configuration list for PBXProject "imagier" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D655B70519F7DA0200BFCEA9;
+			productRefGroup = D655B70F19F7DA0200BFCEA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D655B70D19F7DA0200BFCEA9 /* imagier */,
+				D655B72219F7DA0200BFCEA9 /* imagierTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D655B70C19F7DA0200BFCEA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D655B71919F7DA0200BFCEA9 /* Main.storyboard in Resources */,
+				D655B71E19F7DA0200BFCEA9 /* LaunchScreen.xib in Resources */,
+				D655B71B19F7DA0200BFCEA9 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D655B72119F7DA0200BFCEA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D655B70A19F7DA0200BFCEA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D655B71619F7DA0200BFCEA9 /* viewControler.swift in Sources */,
+				D655B73619F7FCBE00BFCEA9 /* Image.swift in Sources */,
+				D655B73419F7E96C00BFCEA9 /* Mavue.swift in Sources */,
+				D655B71419F7DA0200BFCEA9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D655B71F19F7DA0200BFCEA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D655B72A19F7DA0200BFCEA9 /* imagierTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D655B72519F7DA0200BFCEA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D655B70D19F7DA0200BFCEA9 /* imagier */;
+			targetProxy = D655B72419F7DA0200BFCEA9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D655B71719F7DA0200BFCEA9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D655B71819F7DA0200BFCEA9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D655B71C19F7DA0200BFCEA9 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D655B71D19F7DA0200BFCEA9 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D655B72B19F7DA0200BFCEA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D655B72C19F7DA0200BFCEA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D655B72E19F7DA0200BFCEA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = imagier/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sadaoui.imagier;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		D655B72F19F7DA0200BFCEA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = imagier/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sadaoui.imagier;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		D655B73119F7DA0200BFCEA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = imagierTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/imagier.app/imagier";
+			};
+			name = Debug;
+		};
+		D655B73219F7DA0200BFCEA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = imagierTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/imagier.app/imagier";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D655B70919F7DA0200BFCEA9 /* Build configuration list for PBXProject "imagier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D655B72B19F7DA0200BFCEA9 /* Debug */,
+				D655B72C19F7DA0200BFCEA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D655B72D19F7DA0200BFCEA9 /* Build configuration list for PBXNativeTarget "imagier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D655B72E19F7DA0200BFCEA9 /* Debug */,
+				D655B72F19F7DA0200BFCEA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D655B73019F7DA0200BFCEA9 /* Build configuration list for PBXNativeTarget "imagierTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D655B73119F7DA0200BFCEA9 /* Debug */,
+				D655B73219F7DA0200BFCEA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D655B70619F7DA0200BFCEA9 /* Project object */;
+}
